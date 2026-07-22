@@ -19,15 +19,11 @@ python md_viewer test_data.md    # 最初から特定のファイルを開く
 
 ### どこからでも起動したい場合
 
-`~/.zshrc` に次の行を足すと、どのディレクトリからでも `mdview` で開ける。
+home directoryに"md_viewer"ディレクトリを格納する
 
-```bash
-alias mdview='python ~/Downloads/Markdown_Reader/md_viewer'
-```
-追記後に `source ~/.zshrc` を実行すれば有効になる。
+または
 
-
-またはhome directoryに"md_viewer"ディレクトリを格納する
+"md_viewer"ディレクトリへのPathを通す。
 
 ## ウィンドウ内の操作
 
