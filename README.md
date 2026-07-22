@@ -1,6 +1,6 @@
 # Markdown Viewer
 
-Mac のプレビュー.app が PDF しか開けない不便さを埋めるための、Markdown 専用ビューワー。
+Mac UserのためのMarkdown 専用ビューワー。
 Terminal から起動すると GUI ウィンドウが開き、選んだ Markdown ファイルを
 GitHub とほぼ同じ見た目で読める。
 
@@ -25,8 +25,10 @@ python md_viewer test_data.md    # 最初から特定のファイルを開く
 ```bash
 alias mdview='python ~/Downloads/Markdown_Reader/md_viewer'
 ```
-
 追記後に `source ~/.zshrc` を実行すれば有効になる。
+
+
+またはhome directoryに"md_viewer"ディレクトリを格納する
 
 ## ウィンドウ内の操作
 
@@ -60,7 +62,6 @@ macOS のダークモード設定に追従して配色が切り替わる。
 Markdown_Reader/
 ├── README.md
 ├── requirements.txt
-├── test_data.md            ← 動作確認用のサンプル
 └── md_viewer/
     ├── __init__.py
     ├── __main__.py         ← エントリポイント（引数の解釈）
