@@ -13,7 +13,6 @@ pip install -r requirements.txt
 ## 使い方
 
 ```bash
-cd ~/Downloads/Markdown_Reader
 python md_viewer                 # 起動と同時にファイル選択ダイアログが開く
 python md_viewer test_data.md    # 最初から特定のファイルを開く
 ```
